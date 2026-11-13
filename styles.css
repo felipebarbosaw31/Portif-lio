@@ -89,3 +89,11 @@
 .status-dot{width:6px;height:6px;background:var(--accent);border-radius:50%}
 .study-track{height:5px;border-radius:6px;background:repeating-linear-gradient(110deg,#597958 0px,#597958 7px,#22382d 7px,#22382d 14px)}
 @media(max-width:720px){.project-mascot{width:40px;height:40px}.project-heading{gap:12px}.study-grid{grid-template-columns:1fr;gap:28px}.study p{font-size:1rem}.bpmn-details{margin-top:16px}.studies .section-heading{margin-bottom:28px}}
+
+.contribution-examples{margin-top:22px}
+.contribution-detail{margin:0;border-top:0}
+.contribution-detail summary{min-height:76px;align-items:center;padding:20px 0;gap:20px}
+.contribution-detail summary>span:first-child{color:var(--text);transform:none;font-size:1.05rem}
+.contribution-detail summary small{display:block;color:var(--muted);font-size:.85rem;font-weight:400;margin-top:5px}
+.contribution-detail .details-body{max-width:820px;padding:0 0 22px}
+@media(max-width:720px){.contribution-detail summary small{font-size:.88rem}.contribution-detail .details-body{font-size:1rem}}
