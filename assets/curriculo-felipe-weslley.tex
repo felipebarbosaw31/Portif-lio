@@ -1,0 +1,61 @@
+% Compilar com XeLaTeX ou Tectonic. Texto real, sem imagens ou tabelas de layout.
+\documentclass[10pt,a4paper]{article}
+\usepackage[top=16mm,bottom=17mm,left=18mm,right=18mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{Arial}[Ligatures=NoCommon]
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\definecolor{ink}{HTML}{172135}
+\definecolor{accent}{HTML}{008C65}
+\definecolor{line}{HTML}{CBD5E1}
+\hypersetup{hidelinks,pdftitle={Currículo - Felipe Weslley Barbosa da Silva},pdfauthor={Felipe Weslley Barbosa da Silva},pdfsubject={Analista de Produto e Customer Success}}
+\pagestyle{empty}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\emergencystretch=2em
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\setlist[itemize]{leftmargin=12pt,label=\textbullet,itemsep=2pt,topsep=3pt,parsep=0pt}
+\titleformat{\section}{\normalsize\bfseries\color{ink}}{}{0pt}{}[\color{line}\titlerule]
+\titlespacing*{\section}{0pt}{9pt}{5pt}
+\newcommand{\cargo}[3]{\par\textbf{#1 | #2}\hfill{\small\color{accent}#3}\par}
+\begin{document}
+\color{ink}
+{\fontsize{19}{23}\selectfont\bfseries FELIPE WESLLEY BARBOSA DA SILVA}\par
+{\large\bfseries\color{accent}Analista de Produto \& Customer Success}\par
+{\small Campo Grande, MS \enspace\textbullet\enspace (67) 99237-1716 \enspace\textbullet\enspace \href{mailto:felipebarbosaw31@gmail.com}{felipebarbosaw31@gmail.com}\par
+\href{https://linkedin.com/in/felipe-weslley}{linkedin.com/in/felipe-weslley}}\par
+{\color{accent}\hrule height 0.8pt}
+\section*{RESUMO PROFISSIONAL}
+Analista de Produto e Customer Success com sólida base técnica em banco de dados (SQL) e infraestrutura de aplicações (Docker). Especialista em atuar como ponte estratégica entre requisitos de negócio/regulatórios e a Engenharia de Software, com experiência prática na gestão de roadmaps, implantação SaaS, retenção de clientes (Churn Prevention) e suporte consultivo N2.
+\section*{EXPERIÊNCIA PROFISSIONAL}
+\cargo{AZ Tecnologia em Gestão}{Analista de Customer Success Pleno}{Jul/2025 -- Atual}
+\begin{itemize}
+\item \textbf{Ponte Negócio-TI \& Compliance:} Tradução de decretos governamentais e normas legais em requisitos técnicos claros para a engenharia de produto.
+\item \textbf{Gestão de Roadmap \& Produto:} Priorização de novas features e alinhamento de prazos entre stakeholders de negócio e o time de desenvolvimento.
+\item \textbf{Retenção \& Análise (Churn Prevention):} Monitoramento contínuo de métricas e logs operacionais para antecipar atritos e conduzir treinamentos estratégicos.
+\item \textbf{Suporte Técnico N2:} Diagnóstico avançado de causa raiz e resolução de incidentes críticos em ambiente de produção.
+\end{itemize}
+\cargo{Intersite}{Analista de Implantação Jr}{Jan/2025 -- Jul/2025}
+\begin{itemize}
+\item \textbf{Onboarding \& Implantação:} Planejamento e parametrização de sistemas SaaS conforme as regras de negócio de cada cliente.
+\item \textbf{Capacitação de Usuários:} Elaboração de materiais didáticos e condução de treinamentos práticos para impulsionar a adoção.
+\item \textbf{Evolução de Produto:} Mapeamento de dores operacionais da base e conversão de feedbacks em requisitos de melhoria.
+\end{itemize}
+\cargo{Intersite}{Suporte Técnico N2}{Mar/2024 -- Jan/2025}
+\begin{itemize}
+\item \textbf{Gestão Avançada de Dados:} Análise investigativa e correção direta de inconsistências em banco de dados utilizando scripts SQL complexos.
+\item \textbf{Gestão de SLA \& CSAT:} Acompanhamento rigoroso de prazos de atendimento, garantindo altos índices de satisfação dos clientes.
+\end{itemize}
+\section*{FORMAÇÃO ACADÊMICA}
+\textbf{Bacharelado em Ciência de Dados -- UFMS}\par
+Universidade Federal de Mato Grosso do Sul \hfill Trancado
+\section*{COMPETÊNCIAS TÉCNICAS \& IDIOMAS}
+\textbf{Tecnologia \& Dados}\par
+SQL (DML/DDL, queries avançadas), PostgreSQL, Metabase BI, Infraestrutura Docker, Análise de Logs.
+\par\textbf{Negócio, Produto \& CS}\par
+Gestão de Roadmap, Prevenção de Churn, Metodologias SaaS, Product Operations, Onboarding, Suporte N2 (SLA/CSAT).
+\par\textbf{Idiomas:} Inglês (Nível Intermediário).
+\end{document}
