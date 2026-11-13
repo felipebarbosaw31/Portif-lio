@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="800" viewBox="0 0 340 800" role="img" aria-labelledby="title desc">
+<title id="title">BPMN em formato vertical: solicitação de configuração</title><desc id="desc">Analisar a solicitação. Se faltarem informações, solicitar complemento e voltar à análise. Se estiver completa, configurar o sistema, validar com o solicitante e encerrar.</desc>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#36594b"/></marker></defs>
+<rect width="340" height="800" rx="12" fill="#f4f5ec"/>
+<g font-family="Arial,sans-serif" fill="#243831" text-anchor="middle"><text x="170" y="32" font-size="14">EXEMPLO FICTÍCIO · BPMN</text></g>
+<g fill="none" stroke="#36594b" stroke-width="2" marker-end="url(#a)"><path d="M110 105V150"/><path d="M110 220V295"/><path d="M110 365V465"/><path d="M110 535V590"/><path d="M110 660V715"/><path d="M145 330H260V370"/><path d="M260 450H316V185H190"/></g>
+<g fill="#fff" stroke="#36594b" stroke-width="2"><circle cx="110" cy="85" r="20"/><rect x="30" y="150" width="160" height="70" rx="12"/><path d="M110 295L145 330L110 365L75 330Z"/><rect x="200" y="370" width="115" height="80" rx="12"/><rect x="30" y="465" width="160" height="70" rx="12"/><rect x="30" y="590" width="160" height="70" rx="12"/><circle cx="110" cy="737" r="20" stroke-width="5"/></g>
+<path d="M100 320L120 340M120 320L100 340" stroke="#36594b" stroke-width="2"/>
+<g font-family="Arial,sans-serif" font-size="17" fill="#243831" text-anchor="middle"><text x="156" y="91">Início</text><text x="110" y="178">Analisar</text><text x="110" y="200">solicitação</text><text x="110" y="257">Informações</text><text x="110" y="279">completas?</text><text x="130" y="414">Sim</text><text x="210" y="318">Não</text><text x="257" y="398" font-size="15">Solicitar</text><text x="257" y="421" font-size="15">complemento</text><text x="110" y="495">Configurar</text><text x="110" y="517">o sistema</text><text x="110" y="620">Validar com</text><text x="110" y="642">o solicitante</text><text x="153" y="743">Fim</text></g>
+</svg>
