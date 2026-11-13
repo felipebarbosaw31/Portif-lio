@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="t">
+  <title id="t">Guará</title>
+  <!-- lobo-guará de frente: crina preta no pescoço, orelhas enormes e retas, focinho longo de ponta preta -->
+  <path d="M8 38 L32 33 L56 38 L49 57 L32 64 L15 57 Z" fill="#1F2A36"/>
+  <path d="M12 30 L14.5 1 L28.5 20 Z M52 30 L49.5 1 L35.5 20 Z" fill="#B5541B"/>
+  <path d="M16.5 24 L17 8.5 L24.5 19.5 Z M47.5 24 L47 8.5 L39.5 19.5 Z" fill="#F4F6F3"/>
+  <path d="M11 29 C18 21 46 21 53 29 L37.4 54 C34.9 58.2 29.1 58.2 26.6 54 Z" fill="#B5541B"
+        stroke="#F4F6F3" stroke-width="1.8" stroke-linejoin="round" paint-order="stroke"/>
+  <path d="M24.4 48.5 L39.6 48.5 L37.4 54 C34.9 58.2 29.1 58.2 26.6 54 Z" fill="#1F2A36"/>
+  <ellipse cx="25" cy="35.5" rx="1.7" ry="1.4" fill="#1F2A36"/>
+  <ellipse cx="39" cy="35.5" rx="1.7" ry="1.4" fill="#1F2A36"/>
+</svg>

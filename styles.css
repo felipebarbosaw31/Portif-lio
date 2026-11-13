@@ -70,3 +70,22 @@
  .contact-links a{min-height:56px}
 }
 @media(max-width:360px){nav{display:grid;grid-template-columns:1fr 1fr}.nav{gap:8px}.hero h1{font-size:2.15rem}}
+
+/* Discrete project identities and ongoing learning, without percentage claims. */
+.project-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:16px}
+.project-heading h3{margin-bottom:0;min-width:0}
+.project-mascot{width:48px;height:48px;object-fit:contain;flex:none;opacity:.9}
+.project-heading img[src$="pixel-office.png"]{image-rendering:pixelated}
+.bpmn-details{margin-top:22px}
+.bpmn-details summary{padding:18px 0;color:var(--accent);min-height:52px}
+.bpmn-content{padding-bottom:20px}
+.bpmn-content .bpmn-figure{margin-top:12px}
+.studies .section-heading>p{max-width:300px}
+.study-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.study{display:flex;flex-direction:column;border-top:1px solid var(--line);padding-top:24px;min-width:0}
+.study h3{font-size:1.25rem;line-height:1.3;margin-bottom:14px}
+.study p{color:var(--muted);font-size:.94rem;line-height:1.65;margin-bottom:24px}
+.study-status{display:flex;align-items:center;gap:8px;color:var(--accent);font-size:.82rem;margin-top:auto;margin-bottom:12px}
+.status-dot{width:6px;height:6px;background:var(--accent);border-radius:50%}
+.study-track{height:5px;border-radius:6px;background:repeating-linear-gradient(110deg,#597958 0px,#597958 7px,#22382d 7px,#22382d 14px)}
+@media(max-width:720px){.project-mascot{width:40px;height:40px}.project-heading{gap:12px}.study-grid{grid-template-columns:1fr;gap:28px}.study p{font-size:1rem}.bpmn-details{margin-top:16px}.studies .section-heading{margin-bottom:28px}}
